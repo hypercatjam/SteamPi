@@ -1,4 +1,4 @@
-**Steampi Auto-Shutdown**
+**SteamPi Auto-Shutdown**
 
 This is a small script for a Raspberry Pi that auto-launches Steam Link when the Pi starts and shuts it down safely when you exit. It even gives a prompt so you can cancel the shutdown if you need to use the desktop.
 
