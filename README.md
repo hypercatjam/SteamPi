@@ -28,6 +28,6 @@ Raspberry Pi running Raspberry Pi OS
 - Save and exit (ctrl+o, ENTER, ctrl+x)
 
 
-Reboot. Steam Link will start automatically after a 4 second delay (the amount of time the Pi needs to load the desktop) and then shutdown automatically unless you click cancel in a prompt within 5 seconds. If you click Cancel on the popup, the Pi won’t shut down and you can use the desktop.
+Reboot. Steam Link will start automatically after a 4 second delay and then shutdown automatically unless you click cancel in a prompt within 5 seconds. If you click Cancel on the popup, the Pi won’t shut down and you can use the desktop.
 
-You can change the countdown time in the script (--timeout=10).
+You can change the countdown time's for both the launch and shut down by editing line 4 (sleep 4) and line 19 (--timeout=5). I find the 4 second delay for launch gives enough time for the desktop and drivers to load and doesn't feel too long. The 5 second shutdown also is enough time to click but not too long that it's annoying.
