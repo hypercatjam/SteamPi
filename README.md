@@ -4,7 +4,7 @@ This is a small script for a Raspberry Pi that auto-launches Steam Link when the
 
 **What you need**
 
-Raspberry Pi running Raspberry Pi OS
+- Raspberry Pi running Raspberry Pi OS
 
 - Steam Link installed (sudo apt install steamlink)
 
