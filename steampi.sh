@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Small delay at boot
+# Small delay at boot. Change it to whatever you prefer.
 sleep 4
 
 # Launch Steam Link
@@ -10,7 +10,7 @@ PID=$!
 # Wait for Steam Link to exit
 wait $PID
 
-# Show shutdown prompt with 10-second countdown
+# Show shutdown prompt with 5-second countdown. Change it to whatever you prefer.
 zenity --question \
   --title="SteamPi Shutdown" \
   --text="Steam Link has closed. Shutting down in 5 seconds unless you click Cancel." \
